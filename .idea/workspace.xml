@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="480da446-2897-43ab-aa29-05de3c3a475a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cleanArchitecture.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/aluno/CadastrarAluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/filme/BuscarFilmePorTitulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/funcionario/ListarFuncionarios.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/CadastrarLanche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/CriarPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/FinalizarPedidos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/ListarLanches.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/quarto/CadastrarQuarto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/quarto/ListarQuartos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/quarto/ReservarQuartos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/tarefa/ConcluirTarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/tarefa/CriarTarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/tarefa/ListarTarefasPendentes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/aluno/Aluno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/filme/Filme.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/funcionario/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/funcionario/dto/FuncionarioDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/lanchonete/Lanche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/lanchonete/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/quarto/Quarto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/tarefa/Tarefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/FilmeNaoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/PedidoInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/QuartoIndisponivelException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/TarefaNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/AlunoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/FilmeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/FuncionarioRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/LancheRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/PedidoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/QuartoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/QuartoRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/TarefaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infrastucture/TarefaRepositoryImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="32kH6k4r2FJpTgMq1EHpAttIUDG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "C:/Users/capaes/IdeaProjects/cleanArchitecture/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="480da446-2897-43ab-aa29-05de3c3a475a" name="Changes" comment="" />
+      <created>1757957480098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757957480098</updated>
+    </task>
+    <servers />
+  </component>
+</project>
