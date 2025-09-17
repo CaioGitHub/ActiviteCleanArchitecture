@@ -4,51 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="480da446-2897-43ab-aa29-05de3c3a475a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cleanArchitecture.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/aluno/CadastrarAluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/filme/BuscarFilmePorTitulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/funcionario/ListarFuncionarios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/CadastrarLanche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/CriarPedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/FinalizarPedidos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/lanchonete/ListarLanches.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/quarto/CadastrarQuarto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/quarto/ListarQuartos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/quarto/ReservarQuartos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/tarefa/ConcluirTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/tarefa/CriarTarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/application/tarefa/ListarTarefasPendentes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/aluno/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/filme/Filme.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/funcionario/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/funcionario/dto/FuncionarioDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/lanchonete/Lanche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/lanchonete/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/quarto/Quarto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entities/tarefa/Tarefa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/FilmeNaoEncontradoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/PedidoInvalidoException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/QuartoIndisponivelException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/TarefaNaoEncontradaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/AlunoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/FilmeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/FuncionarioRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/LancheRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/PedidoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/QuartoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/QuartoRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/TarefaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infrastucture/TarefaRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="480da446-2897-43ab-aa29-05de3c3a475a" name="Changes" comment="Atividade CleanArchitecture">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BuscarFilmeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/CadastroAlunoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GerenciamentoTarefasTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ListarFuncionariosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ReservarQuartoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SistemaLanchoneteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cleanArchitecture.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cleanArchitecture.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +34,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "CaioGitHub"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/CaioGitHub/ActiviteCleanArchitecture.git",
+    "accountId": "b9e155e3-4441-4c9e-9278-9f5db0b1ec54"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -77,14 +58,84 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BuscarFilmeTest.executor": "Run",
+    "JUnit.CadastroAlunoTest.testCadastrarAluno.executor": "Run",
+    "JUnit.GerenciamentoTarefasTest.executor": "Run",
+    "JUnit.ListarFuncionariosTest.deveRetornarListaDeFuncionarios.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/capaes/IdeaProjects/cleanArchitecture/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.SistemaLanchoneteTest">
+    <configuration name="CadastroAlunoTest.testCadastrarAluno" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CadastroAlunoTest" />
+      <option name="METHOD_NAME" value="testCadastrarAluno" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciamentoTarefasTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GerenciamentoTarefasTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListarFuncionariosTest.deveRetornarListaDeFuncionarios" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ListarFuncionariosTest" />
+      <option name="METHOD_NAME" value="deveRetornarListaDeFuncionarios" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservarQuartoTest.deveReservarQuarto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReservarQuartoTest" />
+      <option name="METHOD_NAME" value="deveReservarQuarto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SistemaLanchoneteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cleanArchitecture" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SistemaLanchoneteTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SistemaLanchoneteTest" />
+        <item itemvalue="JUnit.ReservarQuartoTest.deveReservarQuarto" />
+        <item itemvalue="JUnit.ListarFuncionariosTest.deveRetornarListaDeFuncionarios" />
+        <item itemvalue="JUnit.GerenciamentoTarefasTest" />
+        <item itemvalue="JUnit.CadastroAlunoTest.testCadastrarAluno" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
